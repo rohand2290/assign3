@@ -1,7 +1,7 @@
-let Square = ({value}) => {
-    let handleClick = () => console.log("clicked!")
+import { useState } from "react";
 
-    return <button className="square" onClick={handleClick}>{value}</button>
+let Square = ({value, onSquareClick}) => {
+    return <button className="square" onClick={onSquareClick}>{value}</button>
 }
 
 export default Square;

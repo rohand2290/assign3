@@ -9,4 +9,14 @@
     * This is meant to contain the components of the Board
     * Edited Board.jsx to use the Square component instead of HTML
 * Added props to Square.jsx (now it's able to use a value passed to it)
-* Edited Board.jsx
+* Edited Board.jsx to use the props instead.
+* Now I want to use state, so I removed the props from Square and created value and setValue variables.
+* handleClick function sets value to X when clicked, and button displays value.
+
+# Finishing the game
+* Added squares state in Board function, to track value of buttons. 
+* Passed value down as prop to individual Square function. 
+* Removed stateful tracking of value in Square function
+* Added onClick={onSquareClick} as prop. This function will be defined in Board
+* Defined onSquareClick function in Board.
+    * This function updated the value of the Square being called to contain X. 
