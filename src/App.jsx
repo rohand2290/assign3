@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as ReactBootstrap from 'react-bootstrap'
-import Square from './Square'
+import Board from './Board'
 const { Badge, Button, Card } = ReactBootstrap
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <div>
-      <Square />
+      <Board />
     </div>
   )
 }

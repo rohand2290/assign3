@@ -1,0 +1,12 @@
+# Steps
+* Ran `npm install` to initialize the dev environment
+* Created a new file called Square.tsx to have my Square component
+* Followed the React tutorial
+* Replaced the App.jsx content with simply `<Board />
+* Refactored to change name of component to Board
+* First commit to GitHub
+* Created another file called Square.jsx
+    * This is meant to contain the components of the Board
+    * Edited Board.jsx to use the Square component instead of HTML
+* Added props to Square.jsx (now it's able to use a value passed to it)
+* Edited Board.jsx
