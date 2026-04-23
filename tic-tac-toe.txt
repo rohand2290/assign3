@@ -20,3 +20,8 @@
 * Added onClick={onSquareClick} as prop. This function will be defined in Board
 * Defined onSquareClick function in Board.
     * This function updated the value of the Square being called to contain X. 
+
+* Edited onSquareClick function to handle the edge case of if the button is clicked 2 times, and can also check for winning condition
+* Edited the Board function to have a Status text displaying whose turn it is
+* Created a new Game function (the one that is exported) to manage Board state for time travel capabilities
+* Added state to track history, currentMove, if xisNext, and currentSquares 
